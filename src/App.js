@@ -8,6 +8,7 @@ import About from './component/About/About';
 import {BrowserRouter as Router} from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Footer from './component/Footer/Footer';
+import Notfound from './component/Notfound/Notfound';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
         </Route>
        
         <Route path="*">
+          <Notfound></Notfound>
           
         </Route>
         

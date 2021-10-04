@@ -16,7 +16,7 @@ const Courses = () => {
 
     return (
         <div>
-            <button className="bg-warning text-dark mt-5 fs-4 fw-bold border-0 rounded-3 p-2">Total Number of Course is:{courses.length}</button>
+            <button className="bg-warning text-white mt-5 fs-4 fw-bold border-0 rounded-3 p-2">Total Number of Course is:{courses.length}</button>
             <div className= "row row-cols-1 row-cols-md-2 g-4 container m-auto" >
                     {
                         
