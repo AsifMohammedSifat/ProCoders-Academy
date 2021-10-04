@@ -1,0 +1,14 @@
+/*  card dedsign  */
+.card-style{
+    background-color: hsl(144, 91%, 34%);
+    height: 400px;
+    box-shadow: 10px 5px 5px gray;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+/* language name and price design  */
+.card-value{
+    color: orangered;
+    font-weight: bold;
+    font-size: 25px;
+}

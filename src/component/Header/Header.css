@@ -1,0 +1,14 @@
+/* google font roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+/* google font roboto mono  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+/* google font poppins  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* brand name style  */
+.brand-name{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 208, 0);
+    font-size: 25px;
+}

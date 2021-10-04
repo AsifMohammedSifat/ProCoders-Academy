@@ -1,0 +1,51 @@
+[{
+    "id": 1,
+    "name": "C",
+    "price": 25,
+    "link": "https://www.youtube.com/embed/ZSPZob_1TOk"
+}, {
+    "id": 2,
+    "name": "C++",
+    "price": 45,
+    "link": "https://www.youtube.com/embed/yGB9jhsEsr8"
+}, {
+    "id": 3,
+    "name": "Java",
+    "price": 45,
+    "link": "https://www.youtube.com/embed/UmnCZ7-9yDY"
+}, {
+    "id": 4,
+    "name": "Python",
+    "price": 45,
+    "link": "https://www.youtube.com/embed/gfDE2a7MKjA"
+}, {
+    "id": 5,
+    "name": "C#",
+    "price": 45,
+    "link": "https://www.youtube.com/embed/GhQdlIFylQ8"
+}, {
+    "id": 6,
+    "name": "JavaScript",
+    "price": 45,
+    "link": "https://www.youtube.com/embed/KGkiIBTq0y0"
+}, {
+    "id": 7,
+    "name": "PHP",
+    "price": 35,
+    "link": "https://www.youtube.com/embed/1SnPKhCdlsU"
+}, {
+    "id": 8,
+    "name": "HTML",
+    "price": 15,
+    "link": "https://www.youtube.com/embed/BsDoLVMnmZs"
+}, {
+    "id": 9,
+    "name": "ReactJs",
+    "price": 50,
+    "link": "https://www.youtube.com/embed/RGKi6LSPDLU"
+}, {
+    "id": 10,
+    "name": "Angular",
+    "price": 55,
+    "link": "https://www.youtube.com/embed/k5E2AVpwsko"
+}]

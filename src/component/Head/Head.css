@@ -1,0 +1,15 @@
+/* banner card style   */
+.card-style {
+    background-color: #fff9f4;
+    box-shadow: 10px 5px 5px gray;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+/* brand name style  */
+.banner-brand{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+}
+

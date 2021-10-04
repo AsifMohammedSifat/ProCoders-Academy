@@ -1,0 +1,51 @@
+[{
+    "id": 1,
+    "name": "C",
+    "price": 25,
+    "img": "https://klemens.dev/images/skills/c.png"
+}, {
+    "id": 2,
+    "name": "C++",
+    "price": 45,
+    "img": "https://th.bing.com/th/id/R.4fce8d006f854df907359e7784f67022?rik=VflIGrAZaMRa%2bQ&pid=ImgRaw&r=0"
+}, {
+    "id": 3,
+    "name": "Java",
+    "price": 45,
+    "img": "https://hikmatulloh.github.io/img/logo/java.png"
+}, {
+    "id": 4,
+    "name": "Python",
+    "price": 45,
+    "img": "https://th.bing.com/th/id/R.c5e3c2f5e09713ea7bc42a4231401a16?rik=jXbpAO8XGYM9Jg&pid=ImgRaw&r=0"
+}, {
+    "id": 5,
+    "name": "C#",
+    "price": 45,
+    "img": "https://th.bing.com/th/id/OIP.nHXKKwwndYToJ8IMCprE6wHaG9?pid=ImgDet&w=737&h=692&rs=1"
+}, {
+    "id": 6,
+    "name": "JavaScript",
+    "price": 45,
+    "img": "https://th.bing.com/th/id/R.217558088e4958be7082f93223380dfb?rik=IzreVvhgZMHWYw&pid=ImgRaw&r=0"
+}, {
+    "id": 7,
+    "name": "PHP",
+    "price": 35,
+    "img": "https://pngimg.com/uploads/php/php_PNG5.png"
+}, {
+    "id": 8,
+    "name": "HTML",
+    "price": 15,
+    "img": "https://th.bing.com/th/id/R.214c27f7dd57824518d92f9696a9b769?rik=ET1KOYh4w9YMCQ&pid=ImgRaw&r=0"
+}, {
+    "id": 9,
+    "name": "ReactJs",
+    "price": 50,
+    "img": "https://th.bing.com/th/id/R.638be90904f9f9248d3c69cb2992c562?rik=KemAm7n0OnTmyg&pid=ImgRaw&r=0"
+}, {
+    "id": 10,
+    "name": "Angular",
+    "price": 55,
+    "img": "https://th.bing.com/th/id/R.cec989a08466b81264db630e45cf953a?rik=ilZtZyZX6ZME4A&riu=http%3a%2f%2fwww.w3schools.com%2fangular%2fpic_angular.jpg&ehk=973sSulUlfN%2fXg3nUaNrWIBZCcC5CUkRISbbTkTFLCQ%3d&risl=&pid=ImgRaw&r=0"
+}]
