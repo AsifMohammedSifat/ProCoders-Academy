@@ -19,6 +19,8 @@ const About = () => {
                             <p className="card-text">Here we provide our location.You can meet with us and learn freely.</p>
                            <h3 className="text-warning fw-bold">Visit & Learn...</h3>
                            <div>
+
+                               {/* banner right -img  */}
                                  <img className="w-75 img-fluid" src="https://th.bing.com/th/id/OIP.2gOVIVPUWbCvfdsiZyuuTAHaFm?pid=ImgDet&rs=1" alt="" />
                            </div>
                          
@@ -26,6 +28,8 @@ const About = () => {
                         </div>
                     </div>
             </div>
+
+
 
             {/* our mission card  */}
             
@@ -52,7 +56,7 @@ const About = () => {
             </div>
 
 
-            {/* message us card              */}
+            {/* email us card              */}
             <div className="card my-3 container card-style h-100" >
                     <div className="row g-0">
                         {/* banner left image  */}
@@ -64,6 +68,8 @@ const About = () => {
                         {/* banner right text  */}
                         <div className="col-md-7">
                         <div className="card-body">
+
+                            {/* form for send mail  */}
                       <form>
                             <div className="mb-3">
                                 <label for="exampleInputEmail1" className="form-label">Email address</label>
@@ -80,6 +86,7 @@ const About = () => {
                             </div>
                             <button type="submit" className="btn btn-warning text-white fw-bold">Submit</button>
                  </form>
+                 {/* form end  */}
                          
                         </div>
                         </div>

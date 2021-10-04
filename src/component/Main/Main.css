@@ -1,8 +1,10 @@
+/*main  banner style  */
+.banner {
+    width: 100%;
+    height: 8%;
+}
+/* banner image style  */
 .banner-img{
   
     width: 80%;
-}
-.banner{
-    width: 100%;
-    height: 8%;
 }

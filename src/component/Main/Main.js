@@ -7,7 +7,7 @@ const Main = () => {
     // initialize state 
     const [courses,setCourse]=useState([]);
 
-     // effect for fetch data 
+     // effect of fetch data 
      useEffect(() => {
          fetch('./courses.JSON')
              .then(res => res.json())

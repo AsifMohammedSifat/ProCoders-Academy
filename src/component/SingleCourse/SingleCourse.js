@@ -2,7 +2,7 @@ import React from 'react';
 import './SingleCourse.css';
 
 const SingleCourse = (props) => {
-    // destructing for service 
+    // destructing of service 
     const {img,name,price}=props.course;
 
     return (
@@ -16,6 +16,8 @@ const SingleCourse = (props) => {
                 <h5 className="card-text">Price: <span className="card-value">{price}$</span></h5>
                
             </div>
+
+            {/* enroll button of card  */}
             <div className="card-footer">
                  <a href="#enroll" className="btn btn-warning text-white fw-bold">Enroll Now</a>
             </div>

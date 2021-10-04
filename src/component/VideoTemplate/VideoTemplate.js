@@ -2,7 +2,7 @@ import React from 'react';
 import './VideoaTemplate.css';
 
 const VideoTemplate = (props) => {
-    // destructing for service 
+    // destructing of service 
     const {link}=props.video;
 
     return (

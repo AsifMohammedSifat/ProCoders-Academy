@@ -16,7 +16,7 @@ function App() {
     <div className="App">
      
       <Router>
-        {/* header section  */}
+        {/* navbar header   */}
         <Header></Header>
        
       <Switch>
@@ -25,35 +25,32 @@ function App() {
         <Route path="/home">
           <Home></Home>       
         </Route>
-
         <Route exact path="/">
           <Home></Home>       
         </Route>
 
+        {/* course as services*/}
         <Route path="/courses">
           <Courses></Courses>         
         </Route>
         
-        
+        {/* about  */}
         <Route path="/about">
           <About></About>      
         </Route>
 
-        
+        {/* tutorials  */}
          <Route path="/tutorials">
           <Tutorials></Tutorials>
         </Route>
 
-        <Route exact  path="/">
-
-        </Route>
-       
+        {/* wrong search rout  */}
         <Route path="*">
-          <Notfound></Notfound>
-          
+          <Notfound></Notfound>          
         </Route>
         
       </Switch>
+      {/* page footer  */}
       <Footer></Footer>
       
       </Router>
