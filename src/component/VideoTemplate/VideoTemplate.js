@@ -1,5 +1,4 @@
 import React from 'react';
-import './VideoaTemplate.css';
 
 const VideoTemplate = (props) => {
     // destructing of service 
