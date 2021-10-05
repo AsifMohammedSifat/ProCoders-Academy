@@ -1,5 +1,5 @@
 /*  card dedsign  */
-.card-style{
+.cideo-style{
     background-color: #faebd7;
     height: 400px;
     box-shadow: 10px 5px 5px gray;
@@ -8,10 +8,8 @@
 
 }
 /* card animation  */
-.details-card:hover{
-    transform: scale(1.05);
-    transition: 1s;
-    border: 3px solid rgb(252, 208, 11);
+.video-card:hover{
+    border: 1px solid rgb(252, 208, 11);
 }
 /* language name and price design  */
 .card-value{

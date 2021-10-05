@@ -1,14 +1,19 @@
+// App.js import 
+
 import './App.css';
-import Header from './component/Header/Header';
+
+// import component 
+import Navbar from './component/Navbar/Navbar';
 import Courses from './component/Courses/Courses';
 import Home from './component/Home/Home';
 import Tutorials from './component/Tutorials/Tutorials';
 import About from './component/About/About';
-
-import {BrowserRouter as Router} from 'react-router-dom';
-import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Footer from './component/Footer/Footer';
 import Notfound from './component/Notfound/Notfound';
+
+// import routers tool 
+import {BrowserRouter as Router} from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 function App() {
@@ -17,7 +22,7 @@ function App() {
      
       <Router>
         {/* navbar header   */}
-        <Header></Header>
+       <Navbar></Navbar>
        
       <Switch>
 
@@ -25,11 +30,9 @@ function App() {
         <Route path="/home">
           <Home></Home>       
         </Route>
-        <Route exact path="/">
-          <Home></Home>       
-        </Route>
+       
 
-        {/* course as services*/}
+        {/* coursea as services*/}
         <Route path="/courses">
           <Courses></Courses>         
         </Route>
@@ -39,9 +42,14 @@ function App() {
           <About></About>      
         </Route>
 
-        {/* tutorials  */}
+        {/* tutorials as video  */}
          <Route path="/tutorials">
           <Tutorials></Tutorials>
+        </Route>
+         
+         {/* default search  */}
+         <Route exact path="/">
+          <Home></Home>       
         </Route>
 
         {/* wrong search rout  */}

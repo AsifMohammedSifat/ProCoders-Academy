@@ -1,11 +1,11 @@
-import React from 'react';
-import { useEffect, useState } from 'react/cjs/react.development';
+import React, { useEffect, useState } from 'react';
+
 import VideoTemplate from '../VideoTemplate/VideoTemplate';
 
 const Tutorials = () => {
     // initialize state 
-    const [videos,setVideos]=useState([]);
-   
+    const [videos,setVideos]=useState([{id:" ",name:" ",link:" ",price:" "}]);
+  
 
      // effect of fetch data 
      useEffect(() => {
@@ -16,7 +16,7 @@ const Tutorials = () => {
 
     return (
         <div>
-            {/* button for total result count  */}
+            {/* button of total result count  */}
             <button className="bg-warning text-white mt-5 fs-4 fw-bold border-0 rounded-3 p-2">Total Number of Free  Course in One Video:{videos.length}</button>
 
             {/* grid container of videos container  */}
@@ -24,8 +24,7 @@ const Tutorials = () => {
                     {
                         
                         
-                        videos.map(video => <VideoTemplate 
-                     
+                        videos.map(video => <VideoTemplate                     
                         key={video.id}
                         video={video}
                         ></VideoTemplate>)

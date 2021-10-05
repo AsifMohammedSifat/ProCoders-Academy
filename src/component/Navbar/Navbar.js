@@ -1,9 +1,11 @@
 import React from 'react';
 import {  NavLink } from 'react-router-dom';
-import './Header.css';
+import './Navbar.css';
 const Header = () => {
+
+    // style apply on nav items
     const activeStyle={
-        fontWeight:'bold'
+        fontWeight:'bold',   
     }
     return (
         <div className="me-0">
@@ -12,7 +14,7 @@ const Header = () => {
                 <div className="container-fluid container">
                     
                     {/* Nav brand name  */}
-                    <a className="navbar-brand text-white m-auto" href="#brand"><span className="brand-name"> ProCoders Academy</span></a>
+                    <a className="navbar-brand text-white m-auto" href="/home"><span className="brand-name"> ProCoders Academy</span></a>
 
                     {/* small device button icon */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,17 +41,18 @@ const Header = () => {
                            {/* search field  */}
                         <div className="w-50 search-field my-2 m-auto ms-lg-auto">
                             <form className="d-flex">
+
+                                {/* search input  */}
                             <input className="form-control me-2" type="search" placeholder="Search Course here..." aria-label="Search"/>
-                            <button className="btn btn-outline-success bg-warning text-dark" type="submit">Search</button>
+
+                            {/* search button  */}
+                            <button className="btn btn-outline-success text-white fs-6 fw-bold bg-warning text-dark" type="submit">Search</button>
                             </form>
                        </div>  
                       
                     </div>
                 </div>
              </nav>
-
-
-
         </div>
     );
 };

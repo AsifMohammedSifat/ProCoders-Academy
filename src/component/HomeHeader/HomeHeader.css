@@ -11,5 +11,26 @@
     color: black;
     font-size: 25px;
     font-weight: 700;
+    animation: home-header-brand-anim 1.5s infinite 2s;
 }
+/* animation of brand name  */
+@keyframes home-header-brand-anim {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: rgb(255, 51, 0);
+    }
+
+    50% {
+        color: rgb(255, 0, 0);
+    }
+
+    100% {
+        color: rgb(31, 6, 255);
+    }
+
+}
+
 

@@ -17,7 +17,7 @@ const About = () => {
                         <div className="card-body">
                             <h5 className="card-title"> Lets meet...<br /><span className="banner-brand">Our Location</span> </h5>
                             <p className="card-text">Here we provide our location.You can meet with us and learn freely.</p>
-                           <h3 className="text-warning fw-bold">Visit & Learn...</h3>
+                           <h3 className="text-dark fw-bold">Visit & Learn...</h3>
                            <div>
 
                                {/* banner right -img  */}
@@ -45,7 +45,7 @@ const About = () => {
                         <div className="card-body">
                             <h5 className="card-title"> <span className="banner-brand">Our Misson</span> </h5>
                             <p className="card-text">We work to make the world programatically.We will provide workshop on programming.</p>
-                           <h3 className="text-warning fw-bold">Lets code and make the world Easier</h3>
+                           <h3 className="text-dark fw-bold">Lets code and make the world Easier</h3>
                            <div>
                                  <img className="w-75 img-fluid" src="https://th.bing.com/th/id/R.5daab6d96ea43f1314f71f845d160001?rik=IYkOQGwL8DTn3A&pid=ImgRaw&r=0" alt="" />
                            </div>
@@ -69,15 +69,15 @@ const About = () => {
                         <div className="col-md-7">
                         <div className="card-body">
 
-                            {/* form for send mail  */}
+                            {/* form of send mail  */}
                       <form>
                             <div className="mb-3">
-                                <label for="exampleInputEmail1" className="form-label">Email address</label>
+                                <label for="exampleInputEmail1" className="form-label fs-4 fw-bold">Email address</label>
                                 <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                                 <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                             </div>
                             <div className="mb-3">
-                                <label for="exampleInputPassword1" className="form-label">Password</label>
+                                <label for="exampleInputPassword1" className="form-label fs-4 fw-bold">Password</label>
                                 <input type="password" className="form-control" id="exampleInputPassword1"/>
                             </div>
                             <div className="mb-3 form-check">
